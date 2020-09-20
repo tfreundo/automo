@@ -3,7 +3,7 @@ import click
 import shutil
 import os
 from pathlib import Path
-from filesystem_scripts.fs_scripts import FsFolderSort
+from util.fs_scripts import FsFolderSort
 
 logging.basicConfig(stream=sys.stderr, level=logging.INFO)
 
