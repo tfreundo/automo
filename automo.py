@@ -18,7 +18,7 @@ def sort_downloads():
     files_moved, folders_created = FsFolderSort.sort_files_in_folder(folder_dir)
     click.echo("[Automo] Moved {fileqty} files into {folderqty} folders.".format(fileqty=files_moved, folderqty=folders_created))
 
-@automo_cli.command(help="Sort the Files in your Download Folder by Fileextension.")
+@automo_cli.command(help="Sort the Files in your Desktop Folder by Fileextension.")
 def sort_desktop():
     folder_dir = Path.home() / "Desktop"
     click.echo("[Automo] Sorting Desktop Folder: '%s'" % folder_dir)

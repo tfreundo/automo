@@ -8,5 +8,5 @@ Automate your boring daily tasks with automo.
     --help  Show this message and exit.
 
     Commands:
-    sort-desktop    Sort the Files in your Download Folder by Fileextension.
+    sort-desktop    Sort the Files in your Desktop Folder by Fileextension.
     sort-downloads  Sort the Files in your Download Folder by Fileextension.
